@@ -6,7 +6,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const BASE_URL = "https://www.swapi.tech/api/";
 
-// Cambia aquí para usar imágenes desde GitHub
 const getImageUrl = (type, uid) => {
     let categoryPath = '';
     switch (type) {

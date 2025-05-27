@@ -4,7 +4,6 @@ import placeholderImage from '../assets/img/placeholder.jpg';
 
 const BASE_URL = "https://www.swapi.tech/api/";
 
-// Usar imágenes desde GitHub
 const getImageUrl = (type, uid) => {
     let categoryPath = '';
     switch (type) {
